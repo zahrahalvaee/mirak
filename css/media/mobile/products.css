@@ -1,0 +1,48 @@
+.products {
+  width: 100%;
+  padding: 50px;
+  background-color: aqua;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.products .product {
+  width: 90%;
+  height: inherit;
+  padding: 50px;
+  background-color: #2b2b2b;
+}
+.products .product h1 {
+  color: whitesmoke;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.products .product img {
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+.products .product p {
+  text-align: justify;
+  line-height: 20px;
+  font-size: 13px;
+  color: whitesmoke;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: 20px;
+}
+.products .product a {
+  width: 150px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  line-height: 40px;
+  color: whitesmoke;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: darkblue;
+}

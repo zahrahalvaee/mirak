@@ -1,0 +1,33 @@
+.menu{
+    width: 100%;
+    background-color: aqua;
+}
+.menu nav{
+    width: inherit;
+    background-color: aquamarine;
+}
+.menu nav .subMenu1{
+    width: inherit;
+    background-color: yellowgreen;
+}
+.menu nav .subMenu1 .subMenu1-1{
+    width: inherit;
+    height: 40px;
+    background-color: yellowgreen;
+}
+.menu nav .subMenu1 .subMenu1-1 a{
+    width: inherit;
+    height: inherit;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    line-height: 40px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: yellow;
+    transition: 300ms;
+}
+.menu nav .subMenu1 .subMenu1-1 a:hover{
+    background-color: darkseagreen;
+}
