@@ -1,0 +1,15 @@
+footer{
+    width: 100%;
+    padding: 50px;
+    background-color: #6b6b6b;
+    display: flex;
+    /* justify-content: center; */
+    flex-flow: row wrap;
+    gap: 10px;
+}
+footer .link{
+    /* width: 33%; */
+    flex-grow: 1;
+    height: 200px;
+    background-color: aqua;
+}

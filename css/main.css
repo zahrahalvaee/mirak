@@ -1,5 +1,5 @@
 @import "./media/setting.css";
-/*#################  mobile first ######################################*/
+/*#################  mobile first ###########################*/
 @import "./media/mobile.css" only screen and (min-width:0);/* mobile first */
 @import "./media/tablet.css" only screen and (min-width:576px);
 @import"./media/desktop.css" only screen and ( min-width:1000px);
